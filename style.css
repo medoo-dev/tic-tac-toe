@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Huninn", sans-serif;
 }
 
 body {
@@ -15,8 +16,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: "Huninn", sans-serif;
+    background: #001;
     
+       
 }
 
 
@@ -25,6 +27,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
 }
 
 body::before {
@@ -77,21 +80,22 @@ main p {
     border: none;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
     font-size: 8vmin;
-    color: red;
-    background-color: yellow;
-    font-family: "Huninn", sans-serif;
+    color: #42047e;
+    background-color: #d7d7d7;
     font-weight: 900;
 }
 
 #reset {
     padding: 10px;
     font-size: 1rem;
-    background: #191913;
-    color: white;
+    background: #ffffff;
+    color: #000000;
     border-radius: 1rem;
     border: none;
     margin-top: 50px;
     transition: .2s;
+    font-weight: 600;
+    
 }
 
 #reset:hover{
@@ -102,18 +106,27 @@ main p {
 }
 
 .box:hover {
-    background-color: #d2991e;
+    background-color: #4b4b4b6a;
     cursor: pointer;
 }
 
 #new-btn {
     padding: 1rem;
     font-size: 1.25rem;
-    background: #191913;
-    color: white;
+    background: #ffffff;
+    color: #000000;
     border-radius: 1rem;
     border: none;
     cursor: pointer;
+    font-weight: 800;
+    transition: .2s;
+    margin-top: 10px;
+}
+
+#new-btn:hover{
+    background: #000000;
+    color: #fff;
+
 }
 
 #msg {
